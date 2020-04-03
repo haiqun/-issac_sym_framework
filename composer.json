@@ -1,0 +1,21 @@
+{
+    "name": "haiqun/test_composer",
+    "description": "this composer test",
+    "require": {
+        "php": "7.2.10",
+        "symfony/http-foundation": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "issac",
+            "email": "281127361@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

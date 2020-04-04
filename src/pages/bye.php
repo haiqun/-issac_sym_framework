@@ -6,5 +6,6 @@
  * Time: 10:59 PM
  */
 
-$response->setContent('Goodbye!');
-$response->send();
+//$response->setContent('Goodbye!');
+
+echo "Goodbye!";

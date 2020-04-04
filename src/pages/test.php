@@ -2,16 +2,13 @@
 /**
  * Created by PhpStorm.
  * User: haiqunfan
- * Date: 2020/4/4
- * Time: 12:24 AM
+ * Date: 2020/4/3
+ * Time: 11:27 PM
  */
 
- echo "test";
 
- ?>
+$name = $request->get('test', 'World'); ?>
 
+    test
 
-Hello
-
-
-<?php echo htmlspecialchars($test, ENT_QUOTES, 'UTF-8') ?>
+<?php echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8') ?>

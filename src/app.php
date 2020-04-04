@@ -18,6 +18,6 @@ use Symfony\Component\Routing;
 $routes = new Routing\RouteCollection();
 $routes->add('hello', new Routing\Route('/hello/{name}', array('name' => 'World')));
 $routes->add('bye', new Routing\Route('/bye'));
-$routes->add('test', new Routing\Route('/test/{name}', array('test' => 'World12312')));
+$routes->add('test', new Routing\Route('/test', array('test' => '1')));
 
 return $routes;

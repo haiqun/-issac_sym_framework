@@ -3,7 +3,8 @@
     "description": "this composer test",
     "require": {
         "php": "7.2.10",
-        "symfony/http-foundation": "^3.0"
+        "symfony/http-foundation": "^3.0",
+        "symfony/routing": "^3.0"
     },
     "authors": [
         {

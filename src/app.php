@@ -56,9 +56,14 @@ $routes->add('test', new Routing\Route('/test')); // /test?test=world => 参数�
 //    '_controller' => array(new LeapYearController(), 'indexAction'),
 //)));
 # 第三版
-include_once __DIR__.'/Controller/LeapYearController.php';
+//include_once __DIR__.'/Controller/LeapYearController.php';
+//$routes->add('leap_year', new Routing\Route('/is_leap_year/{year}', array(
+//    'year' => null,
+//    '_controller' => 'LeapYearController::indexAction',
+//)));
+# 第四版
 $routes->add('leap_year', new Routing\Route('/is_leap_year/{year}', array(
     'year' => null,
-    '_controller' => 'LeapYearController::indexAction',
+    '_controller' => 'Calendar\\Controller\\LeapYearController::indexAction',
 )));
 return $routes;

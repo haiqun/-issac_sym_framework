@@ -207,12 +207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "a7d84b0b39b4d80c738502dd3522c4498572387f"
+                "reference": "d364824a4808d47d7a0a01b61e2ef54703a267d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a7d84b0b39b4d80c738502dd3522c4498572387f",
-                "reference": "a7d84b0b39b4d80c738502dd3522c4498572387f",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/d364824a4808d47d7a0a01b61e2ef54703a267d2",
+                "reference": "d364824a4808d47d7a0a01b61e2ef54703a267d2",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +271,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2020-03-30T11:43:41+00:00"
+            "time": "2020-04-05T06:49:38+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -337,12 +337,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "bc433e8db7848d51b74083ec48ee9886e7d620c1"
+                "reference": "5ab8a06f5b2621c73ca036eda36ff8d78c5b6615"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/bc433e8db7848d51b74083ec48ee9886e7d620c1",
-                "reference": "bc433e8db7848d51b74083ec48ee9886e7d620c1",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5ab8a06f5b2621c73ca036eda36ff8d78c5b6615",
+                "reference": "5ab8a06f5b2621c73ca036eda36ff8d78c5b6615",
                 "shasum": ""
             },
             "require": {
@@ -390,7 +390,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-03-31T19:27:28+00:00"
+            "time": "2020-04-01T10:36:04+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -398,12 +398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "3e8940fbc57a7fb146f5cb5020bf2c8063d601fa"
+                "reference": "af0f09dbb9c3716b38895611a92a099e21766386"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/3e8940fbc57a7fb146f5cb5020bf2c8063d601fa",
-                "reference": "3e8940fbc57a7fb146f5cb5020bf2c8063d601fa",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/af0f09dbb9c3716b38895611a92a099e21766386",
+                "reference": "af0f09dbb9c3716b38895611a92a099e21766386",
                 "shasum": ""
             },
             "require": {
@@ -488,7 +488,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2020-04-01T06:33:39+00:00"
+            "time": "2020-04-04T09:52:45+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

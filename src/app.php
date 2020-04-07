@@ -5,6 +5,8 @@
  * Date: 2020/4/4
  * Time: 12:07 AM
  */
+namespace Calendar;
+
 use Symfony\Component\Routing;
 
 /**
@@ -37,30 +39,6 @@ $routes->add('hello', new Routing\Route('/hello/{name}', array(
 // add ("模板文件名","请求的url地址")
 $routes->add('bye', new Routing\Route('/bye'));
 $routes->add('test', new Routing\Route('/test')); // /test?test=world => 参数传递方式是 ?xxx=aaa
-// 判断是否是润年
-//$routes->add('leap_year', new Routing\Route('/is_leap_year/{year}', array(
-//    'year' => null,
-//    '_controller' => function ($request) {
-//        if (is_leap_year($request->attributes->get('year'))) {
-//            $request->attributes->set('info', 'Yep, this is a leap year!');
-//        }else{
-//            $request->attributes->set('info', 'Nope, this is not a leap year.');
-//        }
-//        $response = render_template($request);
-//        return $response;
-//    }
-//)));
-# 第二版
-//$routes->add('leap_year', new Routing\Route('/is_leap_year/{year}', array(
-//    'year' => null,
-//    '_controller' => array(new LeapYearController(), 'indexAction'),
-//)));
-# 第三版
-//include_once __DIR__.'/Controller/LeapYearController.php';
-//$routes->add('leap_year', new Routing\Route('/is_leap_year/{year}', array(
-//    'year' => null,
-//    '_controller' => 'LeapYearController::indexAction',
-//)));
 # 第四版
 $routes->add('leap_year', new Routing\Route('/is_leap_year/{year}', array(
     'year' => null,
